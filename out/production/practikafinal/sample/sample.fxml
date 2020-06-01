@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane id="MPanel" fx:id="MainPanel" alignment="center" hgap="10" maxHeight="1500.0" maxWidth="1500.0" minHeight="1500.0" minWidth="1000.0" prefHeight="1500.0" prefWidth="1500.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="Button1" fx:id="btn1Click" minWidth="210.0" mnemonicParsing="false" onAction="#actionclick" prefWidth="210.0" text="Добавить нового постояльца" GridPane.columnIndex="2" GridPane.rowIndex="68" />
+      <TextArea id="imyapole" fx:id="imyapoleid" prefHeight="37.0" prefWidth="159.0" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+      <Text id="imyatext" fx:id="imyatextid" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+      <TextArea id="fampole" fx:id="fampoleid" prefHeight="38.0" prefWidth="159.0" GridPane.columnIndex="4" GridPane.rowIndex="18" />
+      <Text id="famtext" fx:id="famtextid" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия" GridPane.columnIndex="2" GridPane.rowIndex="18" />
+      <Text id="otchtext" fx:id="otchtextid" strokeType="OUTSIDE" strokeWidth="0.0" text="Отчество" GridPane.columnIndex="2" GridPane.rowIndex="27" />
+      <TextArea id="otchpole" fx:id="otchpoleid" prefHeight="38.0" prefWidth="159.0" GridPane.columnIndex="4" GridPane.rowIndex="27" />
+      <Text id="comtext" fx:id="comtextid" strokeType="OUTSIDE" strokeWidth="0.0" text="Комментарий" GridPane.columnIndex="2" GridPane.rowIndex="39" />
+      <TextArea id="commpole" fx:id="commpoleid" prefHeight="38.0" prefWidth="159.0" GridPane.columnIndex="4" GridPane.rowIndex="39" />
+      <CheckBox id="luxe" fx:id="luxeid" mnemonicParsing="false" text="Люкс 1 человек Цена:15000Р/сут." GridPane.columnIndex="2" GridPane.rowIndex="53" />
+      <CheckBox id="luxe2" fx:id="luxe2id" mnemonicParsing="false" text="Люкс 2 человек Цена:25000/сут." GridPane.columnIndex="2" GridPane.rowIndex="55" />
+      <CheckBox id="poluluxe1" fx:id="poluluxe1id" mnemonicParsing="false" text="Полулюкс 1 человек Цена:10000/сут." GridPane.columnIndex="2" GridPane.rowIndex="57" />
+      <CheckBox id="poluluxe2" fx:id="poluluxe2id" mnemonicParsing="false" text="Полулюкс 2 человекам Цена15000/сут.:" GridPane.columnIndex="2" GridPane.rowIndex="59" />
+      <CheckBox id="poluluxe3" fx:id="poluluxe3id" mnemonicParsing="false" text="Полулюкс 3 человека Цена:20000/сут." GridPane.columnIndex="2" GridPane.rowIndex="61" />
+      <CheckBox id="obich1" fx:id="obich1id" mnemonicParsing="false" text="Обычный 1 человек Цена:5000/сут." GridPane.columnIndex="2" GridPane.rowIndex="63" />
+      <CheckBox id="obich2" fx:id="obich2id" mnemonicParsing="false" text="Обычный 2 человека Цена:10000/сут." GridPane.columnIndex="2" GridPane.rowIndex="66" />
+      <TextArea id="datas" fx:id="datasid" prefHeight="15.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="47" />
+      <TextArea id="datado" fx:id="datadoid" prefHeight="15.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="47" />
+      <Text id="dataprozhivs" fx:id="dataprozhivsid" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата проживания с" GridPane.columnIndex="2" GridPane.rowIndex="44" />
+      <Text id="dataprozhido" fx:id="dataprozhivdoid" strokeType="OUTSIDE" strokeWidth="0.0" text="дата проживания до" GridPane.columnIndex="4" GridPane.rowIndex="44" />
+      <Text id="FIOtext" fx:id="FIOtextid" strokeType="OUTSIDE" strokeWidth="0.0" text="ФИО" GridPane.columnIndex="45" GridPane.rowIndex="12" />
+      <TextArea id="FIOpole" fx:id="FIOpoleid" prefHeight="10.0" prefWidth="300.0" GridPane.columnIndex="45" GridPane.rowIndex="18" />
+      <Text id="commentfinal" fx:id="commentfinalid" strokeType="OUTSIDE" strokeWidth="0.0" text="Комментарий" GridPane.columnIndex="45" GridPane.rowIndex="27" />
+      <TextArea id="commentfinalpole" fx:id="commentfinalpoleid" prefHeight="10.0" prefWidth="300.0" GridPane.columnIndex="45" GridPane.rowIndex="33" />
+      <TextArea id="dprozhivania" fx:id="dprozhivaniaid" prefHeight="10.0" prefWidth="300.0" GridPane.columnIndex="45" GridPane.rowIndex="39" />
+      <Text id="nomertext" fx:id="nomertextid" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер" GridPane.columnIndex="45" GridPane.rowIndex="44" />
+      <TextArea id="nomerpole" fx:id="nomerpoleid" prefHeight="10.0" prefWidth="300.0" GridPane.columnIndex="45" GridPane.rowIndex="47" />
+      <Text id="dprozhivaniatext" fx:id="dprozhivaniatextid" strokeType="OUTSIDE" strokeWidth="0.0" text="дата проживания" GridPane.columnIndex="45" GridPane.rowIndex="36" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
